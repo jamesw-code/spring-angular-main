@@ -81,16 +81,16 @@
                             <arguments>run-script build</arguments>
                         </configuration>
                     </execution>
-<!--                    <execution>-->
-<!--                        <id>npm-test</id>-->
-<!--                        <goals>-->
-<!--                            <goal>npm</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <arguments>run-script test</arguments>-->
-<!--                        </configuration>-->
-<!--                        <phase>test</phase>-->
-<!--                    </execution>-->
+                    <execution>
+                        <id>npm-test</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>run-script test</arguments>
+                        </configuration>
+                        <phase>test</phase>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
